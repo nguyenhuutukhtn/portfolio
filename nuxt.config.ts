@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
   // App configuration
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL || '/',
+    baseURL: process.env.NUXT_APP_BASE_URL || '/portfolio',
     head: {
       title: 'Nguyen Huu Tu - Portfolio',
       meta: [
