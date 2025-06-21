@@ -51,9 +51,6 @@ export default defineNuxtConfig({
   },
 
   // Enable static site generation
-  ssr: false,
-
-  // Nitro configuration for SSR/SSG
   nitro: {
     prerender: {
       routes: ['/sitemap.xml', '/', '/projects', '/cv', '/contact']
